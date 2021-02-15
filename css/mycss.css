@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+body {
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+p {
+	color: #252525;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+p a {
+	color: #252525;
+	text-decoration: underline;
+}
+p a:hover {
+	color: #898989;
+}
+#header {
+	margin: 0 auto;
+	text-align: right;
+	width: 1350px;
+	padding-bottom: 20px;
+	z-index: 1;
+	position: fixed;
+	background-color: #000;
+	opacity: .8;
+}
+
+#header ul {
+	margin: 0;
+	padding: 30px 0 0;
+}
+#header ul li {
+	display: inline;
+	list-style: none;
+	margin-right: 10px;
+	padding: 0 20px;
+}
+#header ul li a {
+	color: #fff;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header ul li a:hover, #header ul li.selected a {
+	color: #0ba39c;
+	
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Pangolin', cursive;
+}
+body {
+  background-image: url();
+  background-size: 300% 300%;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 1349px;
+  color: #fff;
+  text-align: center;
+}
+.container {
+  background: linear-gradient(to right, #5d5fc7 0%, #882cb0 100%);
+  background-position: center;
+  background-size: cover;
+  max-width: 1350px;
+  width: 100%;
+  height: 2800px;
+  padding: 2em 0px;
+  backdrop-filter: blur(10px);
+  animation: gra 3s infinite;
+    animation-direction: reverse;
+    -webkit-animation: gra 3s infinite;
+    -webkit-animation-direction: reverse;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+}
+ @keyframes gra {
+    0% {
+      background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #6565c9), color-stop(30%, #ff670f), color-stop(56%, #f21395), color-stop(88%, #e34139));
+      background: -webkit-linear-gradient(-45deg, #6565c9 0%, #ff670f 30%, #f21395 56%, #e34139 88%);
+      background: linear-gradient(130deg, #6565c9 0%, #ff670f 30%, #f21395 56%, #e34139 88%);
+    }
+    50% {
+      background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #6565c9), color-stop(10%, #ff670f), color-stop(40%, #f21395), color-stop(60%, #e34139));
+      background: -webkit-linear-gradient(-45deg, #6565c9 0%, #ff670f 10%, #f21395 40%, #e34139 60%);
+      background: linear-gradient(130deg, #6565c9 0%, #ff670f 10%, #f21395 40%, #e34139 60%);
+    }
+    100% {
+      background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #6565c9), color-stop(3%, #ff670f), color-stop(10%, #f21395), color-stop(40%, #e34139));
+      background: -webkit-linear-gradient(-45deg, #6565c9 0%, #ff670f 3%, #f2139510%, #e34139 40%);
+      background: linear-gradient(130deg,  #6565c9 0%, #ff670f 3%, #f21395 10%, #e34139 40%);
+    }
+ }
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+.container h1 {
+  letter-spacing: 10px;
+          margin: 40px; 
+     font-family: 'Pangolin', cursive;
+	  font-size: 4.5em; 
+        color: #FFFFFF; 
+        text-align: center; 
+		padding: 10px;
+ }
+.blinking{
+    animation:blinkingText 2s infinite;
+
+}
+@keyframes blinkingText{
+    0%{     color: #cfcb06;   }
+    49%{    color: #0b26b0;}
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color:  #0b26b0;   }
+				
+}
+.container .box1 {
+  position: absolute;
+   top: 90px;
+  left: 350px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .box1 img {
+  height: 200px;
+  width: 350px; 
+}
+.container .box1 .wrapper {
+  padding-left: 10px;
+}
+.container .box1 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .box1 .wrapper h4 {
+  text-align: left;
+  font-family: arial;
+  
+}
+.container .box1 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .box1 .wrapper p {
+  padding: 5px;
+  margin-left: 43px;
+  margin-right: 5px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  color: #020202;
+  border: 2px; 
+  border-style:solid;
+  border-color:#FF0000;  
+  background: rgba(177, 230, 225, 0.3);
+  padding-left: 2px;
+}
+
+
+.container .box2 {
+  position: absolute;
+ top: 750px;
+  left: 350px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .box2 img {
+  height: 200px;
+  width: 350px;
+}
+.container .box2 .wrapper {
+  padding-left: 10px;
+}
+.container .box2 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .box2 .wrapper h4 {
+  text-align: left; 
+  font-family: arial;
+  
+}
+.container .box2 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .box2 .wrapper p {
+text-align: center;
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 5px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  color: #020202;
+   border: 2px; 
+  border-style:solid; 
+  border-color:#FF0000;  
+  background: rgba(177, 230, 225, 0.3);
+  padding-left: 2px;
+}
+
+
+
+.container .box3 {
+  position: absolute;
+  top: 1450px;
+  left: 350px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .box3  img {
+  height: 200px;
+  width: 350px;
+}
+.container .box3  .wrapper {
+  padding-left: 10px;
+}
+.container .box3 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .box3  .wrapper h4 {
+  text-align: left;
+  font-family: arial;
+  
+}
+.container .box3  .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .box3 .wrapper p {
+  padding: 5px;
+  margin-left: 47px;
+  margin-right: 5px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  color: #020202;
+  border: 2px; 
+  border-style:solid; 
+  border-color:#FF0000;  
+  background: rgba(177, 230, 225, 0.3);
+  padding-left: 2px;
+}
+
+
+
+.container .box4 {
+  position: absolute;
+  top: 2100px;
+  left: 350px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .box4  img {
+  height: 200px;
+  width: 350px;
+}
+.container .box4  .wrapper {
+  padding-left: 10px;
+}
+.container .box4  .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .box4  .wrapper h4 {
+  text-align: left;
+  font-family: arial;
+  
+}
+.container .box4 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .box4  .wrapper p {
+  padding: 5px;
+  margin-left: 23px;
+  margin-right: 25px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  color: #020202;
+  border: 2px; 
+  border-style:solid; 
+  border-color:#FF0000;  
+  background: rgba(177, 230, 225, 0.3);
+  padding-left: 2px;
+}
